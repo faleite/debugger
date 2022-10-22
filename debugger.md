@@ -124,8 +124,7 @@ use **p** ou **pp** quando isso acontecer*
     - O modo post-mortem leva o depurador direto para a execução do programa
     - Há diversas formas de usar o post_mortem, aqui uma forma pratica:
         - ``$ python3 -mpdb seu_script.py``
-    - [*Saiba mais*](https://www.codementor.io/@stevek/\
-advanced-python-debugging-with-pdb-g56gvmpfa#post-mortem-debugging)
+    - [*Saiba mais*](https://www.codementor.io/@stevek/advanced-python-debugging-with-pdb-g56gvmpfa#post-mortem-debugging)
 
 ---
 
