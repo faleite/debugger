@@ -92,11 +92,12 @@ Comando|Função
 **whatis**|*Diz o tipo de algum objeto*
 **c(cont(inue))**|*Avança o debuger até o próximo breakpoint*
 **q(uit) / exit**|*Saí do debugger*:whatis
-**p(rint)**|*Da o print da variavel*
-**pp(rint)**|*Da o print melhor formatado*
+**p**|*Da o print da variavel*
+**pp**|*Da o print melhor formatado*
 **w(here)**|*Diz onde estamos, em qual arquivo, de qual módulo em qual linha, etc...
-**u(p)**|*Sobe um nível na pilha. Em uma função, ele vai na linha onde ela foi chamada*
+**u(p\)**|*Sobe um nível na pilha. Em uma função, ele vai na linha onde ela foi chamada*
 **d(own)**|*Desce um nível na pilha. Caso tenha subido pra ver quem chamou*
+**dir( )**|*Mostra o que tem no namespace (funções, imports e etc ...)*
 
 *Observação:*\
 *Para acessar variáveis com o mesmo nome de um comando do **Pdb**, usamos o print:*
@@ -115,6 +116,18 @@ Comando|Função
 
 >*Evite usar variáveis de um único caracter\
 use **p** ou **pp** quando isso acontecer*
+
+---
+### Post-mortem debugging
+
+- É uma ferramenta de depuração do **Pdb**
+    - O modo post-mortem leva o depurador direto para a execução do programa
+    - Há diversas formas de usar o post_mortem, aqui uma forma pratica:
+        - ``$ python3 -mpdb seu_script.py``
+    - [*Saiba mais*](https://www.codementor.io/@stevek/\
+advanced-python-debugging-with-pdb-g56gvmpfa#post-mortem-debugging)
+
+---
 
 ## 4. Instalar e setar outras ferramentas de debugger
 
